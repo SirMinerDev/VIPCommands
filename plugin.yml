@@ -1,0 +1,13 @@
+name: VIPCommands
+author: SirMiner
+description: Commands for VIPs
+version: 1.0dev
+main: SirMiner\Main
+api: [3.0.0]
+commands:
+  fly:
+    description: "Enable or disable flight"
+    usage: "/fly {on/off}"
+permissions: 
+     vip.fly:
+        default: op
