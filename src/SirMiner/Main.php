@@ -35,15 +35,15 @@ public function onCommand(CommandSender $sender,Command $cmd,$label,array $args)
                 }
 				break;
 				case "gms":
-                if ($issuer->hasPermission("vip.gamemodes")) {
-                    $issuer->sendMessage("§cSwitched gamemode to survival mode");
-                    $issuer->setGamemode(0);
+                if ($sender->hasPermission("vip.gamemodes")) {
+                    $sender->sendMessage("§cSwitched gamemode to survival mode");
+                    $sender->setGamemode(0);
                 }
                 break;
             case "gmc":
-                if ($issuer->hasPermission("vip.gamemodes")) {
-                    $issuer->sendMessage(§aSwitched gamemode to creative mode");
-                    $issuer->setGamemode(1);
+                if ($sender->hasPermission("vip.gamemodes")) {
+                    $sender->sendMessage("§aSwitched gamemode to creative mode");
+                    $sender->setGamemode(1);
                 }
                 break;
    }
