@@ -4,8 +4,8 @@
 
 ##ToDo
 - [x] Fly
-- [ ] gmc
-- [ ] gms
+- [x] gmc
+- [x] gms
 - [ ] heal
 - [ ] repair
 - [ ] Limited creative

@@ -7,7 +7,12 @@ api: [3.0.0]
 commands:
   fly:
     description: "Enable or disable flight"
-    usage: "/fly {on/off}"
+  gmc:
+    description: "Set gamemode to creative"
+  gms:
+    description: "Set gamemode to survival"
 permissions: 
      vip.fly:
         default: op
+     vip.gamemodes:
+         default: op
